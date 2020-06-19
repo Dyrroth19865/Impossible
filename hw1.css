@@ -1,0 +1,116 @@
+body {
+    margin: 12px 18px;
+    padding-top: 4px;
+}
+
+header {
+    background-image: url('../images/flywheel.jpg');
+    background-repeat: no-repeat;
+    background-color: #478030e1;
+    background-size: cover;
+    background-position-y: -20px;
+    height: 160px;
+    padding: 3%;
+    width: 95%;
+}
+
+nav a {
+    display: inline-block;
+    width: 16%;
+    height: 28%;
+    background: #ffffff9f;
+    border-radius: 12px;
+    padding: 22px;
+    margin-left: 76px;
+    text-align: center;
+    color: #000000;
+    text-decoration-line: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+    background: #ffffff;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgb(36, 68, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    width: 63%;
+    height: 18%;
+    border: 3px solid #000000;
+    border-radius: 40%;
+}
+
+.left {
+    display: inline-block;
+    width: 22%;
+    background: #3c5503e1;
+    height: 678px;
+}
+
+.right {
+    display: inline-block;
+    width: 68%;
+    height: 650px;
+    vertical-align: text-bottom;
+    font-size: 145%;
+    padding-left: 15px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #131212;
+    margin: auto;
+}
+
+th {
+    background: linear-gradient(to bottom, #619e10, #ace248);
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 2px solid #00ff22;
+    border-bottom: 4px solid #00ff22;
+    padding: 18px;
+}
+
+tr:hover {
+    opacity: 0.7;
+}
+
+th:nth-child(2) {
+    text-align: center;
+}
+
+th:first-child {
+    border-top-left-radius: 12px;
+    text-align: left;
+}
+
+th:last-child {
+    border-top-right-radius: 12px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    background: #b4f18b;
+    padding: 6px;
+}
+
+td:nth-child(3n+1) {
+    text-align: left;
+}
